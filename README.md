@@ -74,6 +74,7 @@ This **Heart Rate Monitoring System** is a Node.js-based API that allows users t
 **Database Relationship:**
 -Each patient can have multiple heart rate records.
 -The heart_rates table should have a foreign key referencing the patients table.
+##
 **Relationship Explanation:**
 -One-to-Many Relationship: One patient can have many heart rate records.
 -The patientId in heart_rates is a foreign key linking it to the patients table.
